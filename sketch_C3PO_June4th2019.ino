@@ -76,6 +76,7 @@ void loop() {
     previous_distance1 = distance1;
     previous_distance2 = distance2;
     play();
+  }
   else{delay(100);}
   
   //Serial.println(distance1 && distance2); //Debug print, can be removed.
